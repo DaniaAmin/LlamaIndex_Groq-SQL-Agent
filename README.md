@@ -7,10 +7,10 @@ This notebook is designed to build and deploy an AI agent using the LLaMA langua
 2. Environment Setup
 The first step in the notebook is setting up the required environment by installing the necessary Python packages:
 
-!pip install llama-index
+```!pip install llama-index
 !pip install llama-index-llms-groq
 !pip install llama-index-embeddings-huggingface
-!pip install llama-parse
+!pip install llama-parse```
 
 llama-index: A library to interact with the LLaMA language model, providing utilities for text processing and model interaction.
 llama-index-llms-groq: This package integrates LLaMA with Groq hardware, which is designed for high-performance computing, particularly in AI and machine learning.
